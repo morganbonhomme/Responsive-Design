@@ -4,16 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TNW</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
     <link href="stylesheet.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Awesome font -->
-    <!-- <script src="https://kit.fontawesome.com/5992e83a0a.js" crossorigin="anonymous"></script>
- -->
-
-    <!-- NE PAS OUBLIER D'ajouter les icones -->
   </head>
   <body>
     <nav>
@@ -46,9 +42,11 @@
         </ul>
         <div class="right">
           <div class="search">
-            <!-- <i class="fas fa-search"></i> -->
+            <img class="search" src="./assets/search.png" alt="search-logo" />
           </div>
-          <div class="bars"><!-- <i class="fas fa-bars"></i> --></div>
+          <div class="bars">
+            <img class="bars" src="./assets/open-menu.png" alt="menu-logo" />
+          </div>
         </div>
       </div>
       <div class="alert-band">
@@ -74,8 +72,8 @@
           </h2>
           <ul class="cover-details">
             <li>by Callum Booth</li>
-            <li>47 minutes ago</li>
-            <li>0</li>
+            <li><img class="logo-featured-articles" src="./assets/clock.png" alt="clock"> <span class="text-featured-articles">47 minutes ago </span></li>
+            <li><img class="logo-featured-articles" src="./assets/share.png" alt="clock"> <span class="text-featured-articles">5 </span></li>
           </ul>
         </header>
       </article>
@@ -99,8 +97,8 @@
           </h2>
           <ul class="cover-details">
             <li>by Thomas Macaulay</li>
-            <li>2 hours ago</li>
-            <li>5</li>
+            <li><img class="logo-featured-articles" src="./assets/clock.png" alt="clock"> <span class="text-featured-articles">2 hours ago </span></li>
+            <li><img class="logo-featured-articles" src="./assets/share.png" alt="clock"> <span class="text-featured-articles">56 </span></li>
           </ul>
         </header>
       </article>
@@ -338,13 +336,50 @@
 
           <div class="selection">
             <div class="selection-text">
-              <h5>LATEST
-              </h5>
-              <h4>Fujifilm's new app makes it easy to turn your camera into a webcam</h4>
+              <h5>LATEST</h5>
+              <h4>
+                Fujifilm's new app makes it easy to turn your camera into a
+                webcam
+              </h4>
             </div>
-            <div class="selection-image"  style="background-image: url(./assets/selection1.jpg);"></div>
+            <div
+              class="selection-image"
+              style="background-image: url(./assets/selection1.jpg);"
+            ></div>
           </div>
 
+          <ul>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Microsoft brings Edge's hidden Surf Game to everyone
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Chrome is testing dark mode for Google Search
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Icon Rewind is a time machine for your phone’s app icons
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                YouTube now tells you to go to bed -- here's how to set it up
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Google Maps can now highlight wheelchair-accessible businesses
+              </div>
+            </li>
+          </ul>
         </div>
 
         <div class="thematic-container-card">
@@ -364,12 +399,52 @@
           </div>
           <div class="selection">
             <div class="selection-text">
-              <h5>LATEST
-              </h5>
-              <h4>Spotify’s removed its 10K library limit — but it won’t replace my MP3 collection</h4>
+              <h5>LATEST</h5>
+              <h4>
+                Spotify’s removed its 10K library limit — but it won’t replace
+                my MP3 collection
+              </h4>
             </div>
-            <div class="selection-image"  style="background-image: url(./assets/selection2.png);"></div>
+            <div
+              class="selection-image"
+              style="background-image: url(./assets/selection2.png);"
+            ></div>
           </div>
+
+          <ul>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                You can finally customize your Mac in India – but it’s
+                cumbersome
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Pablo Escobar’s brother is suing Apple for $2.6B
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Future AirPods might jam light sensors into your ears because...
+                health
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                The RadWagon 4 is a car replacement e-bike at a great price
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Honor's making a serious move into the smart home
+              </div>
+            </li>
+          </ul>
         </div>
 
         <div class="thematic-container-card">
@@ -390,12 +465,51 @@
           </div>
           <div class="selection">
             <div class="selection-text">
-              <h5>LATEST
-              </h5>
-              <h4>Click here if your virtual meetings are insanely inefficient</h4>
+              <h5>LATEST</h5>
+              <h4>
+                Click here if your virtual meetings are insanely inefficient
+              </h4>
             </div>
-            <div class="selection-image"  style="background-image: url(./assets/selection3.png);"></div>
+            <div
+              class="selection-image"
+              style="background-image: url(./assets/selection3.png);"
+            ></div>
           </div>
+
+          <ul>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                The invisible labor powering Silicon Valley — and the ethics
+                behind 'ghost work'
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                How to succeed in a post-coronavirus job market, according to
+                Vice’s SVP
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                A step-by-step guide to building your first Telegram bot
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Everything you need to know about artificial neural networks
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Twitter embeds fact-checking links in Trump's lying tweets
+              </div>
+            </li>
+          </ul>
         </div>
 
         <div class="thematic-container-card">
@@ -415,13 +529,51 @@
           </div>
           <div class="selection">
             <div class="selection-text">
-              <h5>LATEST
-              </h5>
-              <h4>This CSS library makes it easy to design Windows XP-inspired UIs</h4>
+              <h5>LATEST</h5>
+              <h4>
+                This CSS library makes it easy to design Windows XP-inspired UIs
+              </h4>
             </div>
-            <div class="selection-image"  style="background-image: url(./assets/selection4.png);"></div>
+            <div
+              class="selection-image"
+              style="background-image: url(./assets/selection4.png);"
+            ></div>
           </div>
-          
+          <ul>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                This AI wrote such emo lyrics that humans thought it was My
+                Chemical Romance
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                This CSS library makes it easy to build Windows 98-inspired UIs
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Why we are hardwired to focus on the wrong parts of our product
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Animal Crossing: New Horizons player masterfully recreates
+                ‘Hyrule’ from The Legend of Zelda
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Life imitating art: Quarantined people remix famous paintings
+                with household items
+              </div>
+            </li>
+          </ul>
         </div>
 
         <div class="thematic-container-card">
@@ -441,12 +593,52 @@
           </div>
           <div class="selection">
             <div class="selection-text">
-              <h5>LATEST
-              </h5>
-              <h4>What advocates for internet privacy can learn from Greta Thunberg</h4>
+              <h5>LATEST</h5>
+              <h4>
+                What advocates for internet privacy can learn from Greta
+                Thunberg
+              </h4>
             </div>
-            <div class="selection-image"  style="background-image: url(./assets/selection5.png);"></div>
+            <div
+              class="selection-image"
+              style="background-image: url(./assets/selection5.png);"
+            ></div>
           </div>
+          <ul>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Tech in Latin America: An entrepreneur’s guide to April’s
+                startup news
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Run an online store? In the age of COVID-19, you can’t skimp on
+                web accessibility
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                PR and marketing tips for companies in the COVID-19 era
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Facebook’s political targeting machine should be cracked open by
+                the DSA
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Coronavirus didn't kill our privacy — it just exposed the corpse
+              </div>
+            </li>
+          </ul>
         </div>
 
         <div class="thematic-container-card">
@@ -467,12 +659,54 @@
           </div>
           <div class="selection">
             <div class="selection-text">
-              <h5>LATEST
-              </h5>
-              <h4>13 YouTube channels to turn yourself from wagecuck to finance god</h4>
+              <h5>LATEST</h5>
+              <h4>
+                13 YouTube channels to turn yourself from wagecuck to finance
+                god
+              </h4>
             </div>
-            <div class="selection-image"  style="background-image: url(./assets/selection6.png);"></div>
+            <div
+              class="selection-image"
+              style="background-image: url(./assets/selection6.png);"
+            ></div>
           </div>
+          <ul>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                World’s top companies, including Apple, borrowed $1 trillion in
+                just five months
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Tesla’s Model S and Model X EVs are now $5K cheaper — but
+                there’s no more free Supercharging
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Satoshi Nakaboto: ‘S&P 500 outperformed Bitcoin over the past
+                year’
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Don’t confuse following your gut with your ego — or your
+                business will fail
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Amazon-backed Rivian reopens factory to build parts for upcoming
+                electric SUV
+              </div>
+            </li>
+          </ul>
         </div>
 
         <div class="thematic-container-card">
@@ -493,12 +727,52 @@
           </div>
           <div class="selection">
             <div class="selection-text">
-              <h5>LATEST
-              </h5>
-              <h4>Facebook-backed Reliance Jio pilots basic grocery ordering service on WhatsApp in India</h4>
+              <h5>LATEST</h5>
+              <h4>
+                Facebook-backed Reliance Jio pilots basic grocery ordering
+                service on WhatsApp in India
+              </h4>
             </div>
-            <div class="selection-image"  style="background-image: url(./assets/selection7.jpg);"></div>
+            <div
+              class="selection-image"
+              style="background-image: url(./assets/selection7.jpg);"
+            ></div>
           </div>
+          <ul>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Google’s coronavirus information site is now live
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                The hyper-compact Microlino 2.0 EV is almost too cute for words
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                TNW announces Neural: A blog for human-centric AI news and
+                analysis
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                PSA: Amazon Fresh grocery deliveries are now free for US Prime
+                members
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Alexis Ohanian and Serj Tankian team up to help build a social
+                network for Armenia
+              </div>
+            </li>
+          </ul>
         </div>
 
         <div class="thematic-container-card">
@@ -516,22 +790,56 @@
           </div>
           <div class="selection">
             <div class="selection-text">
-              <h5>LATEST
-              </h5>
-              <h4>Disney debuts Zenimation, which mixes soothing sounds with familiar art</h4>
+              <h5>LATEST</h5>
+              <h4>
+                Disney debuts Zenimation, which mixes soothing sounds with
+                familiar art
+              </h4>
             </div>
-            <div class="selection-image"  style="background-image: url(./assets/selection8.jpg);"></div>
+            <div
+              class="selection-image"
+              style="background-image: url(./assets/selection8.jpg);"
+            ></div>
           </div>
+          <ul>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Disney debuts Zenimation, which mixes soothing sounds with
+                familiar art
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Final Fantasy XIV Online with 30 days of play time is free
+                through 26 May: Here's how to get it
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                Civilization VI is available for free on PC until May 28 —
+                here’s how to get it
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                The Snyder Cut of Justice League exists and it will release on
+                HBO Max
+              </div>
+            </li>
+            <li>
+              <span class="red-point">•</span>
+              <div class="text">
+                EA to release source code for Command and Conquer's Tiberian
+                Dawn and Red Alert
+              </div>
+            </li>
+          </ul>
         </div>
-        
       </div>
-
-
-
-
-
-
-
 
       <header class="main-title">
         <span class="main-title"> Latest Deals > </span
@@ -651,8 +959,46 @@
     </div>
 
     <footer>
-      <div class="footer-links"></div>
-      <div class="footer-legal"></div>
+      <div class="footer-links">
+        <div class="logo-container-flex">
+          <div class="logo-container">
+            <img src="./assets/facebook.png" />
+          </div>
+          <div class="logo-container">
+            <img src="./assets/twitter.png" />
+          </div>
+          <div class="logo-container">
+            <img src="./assets/youtube.png" />
+          </div>
+          <div class="logo-container">
+            <img src="./assets/instagram.png" />
+          </div>
+          <div class="logo-container">
+            <img src="./assets/pinterest.png" />
+          </div>
+          <div class="logo-container">
+            <img src="./assets/rss.png" />
+          </div>
+          <div class="logo-container">
+            <img src="./assets/mail.png" />
+          </div>
+        </div>
+
+        <div class="menu-container-flex">
+          <div class="text">EVENTS</div>
+          <div class="text">ABOUT</div>
+          <div class="text">ADVERTISE</div>
+          <div class="text">JOBS</div>
+          <div class="text">CONTACT</div>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span class="text"> The Next Web © 2006–2020 The Next Web B.V.</span>
+        <span class="text">
+          Made with <span class="red-heart">♥</span> in Amsterdam.
+        </span>
+        <span class="text"> Powered by StackPath </span>
+      </div>
     </footer>
   </body>
 </html>
