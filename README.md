@@ -10,7 +10,7 @@ This project was inspired by [The Odin Project](https://www.theodinproject.com/)
 * Design a responsive website
 
 ## iPhone Demo
-<img src="https://github.com/morganbonhomme/Responsive-Design/blob/master/assets/tnwimhponeXdemo.gif" width="400"/>
+<img src="https://github.com/morganbonhomme/Responsive-Design/blob/master/assets/tnwimhponeXdemo.gif" height="400"/>
 
 ## Desktop Demo
-<img src="https://github.com/morganbonhomme/Responsive-Design/blob/master/assets/tnwdesktopdemo.gif" width="400"/>
+<img src="https://github.com/morganbonhomme/Responsive-Design/blob/master/assets/tnwdesktopdemo.gif" width="800"/>
